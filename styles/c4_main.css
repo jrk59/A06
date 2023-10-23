@@ -1,3 +1,7 @@
+:root {
+	--global-color-1: #4d0080;
+}
+
 /* the styles for the elements */
 body {
 	font-family: Arial, Helvetica, sans-serif;
@@ -14,7 +18,7 @@ header img {
 
 header h2 {
 	font-size: 170%;
-	color: #800000;
+	color: var(--global-color-1);
 	text-indent: 30px;
 }
 
@@ -40,7 +44,7 @@ main h3 {
 }
 
 .shadow {
-	text-shadow: 2px 2px #800000;
+	text-shadow: 2px 2px var(--global-color-1);
 }
 /* the styles for the footer */
 footer p {
